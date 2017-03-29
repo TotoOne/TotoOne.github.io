@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+p{
+	text-indent: 2em;
+}
+.gray-font{
+	color:gray;
+}
+.header{
+	width: 100%;
+	height: 3em;
+	background-color: #abcdef;
+}
+.header h1{
+	display: inline;
+	margin: 1em;
+}
+.header ul{
+	display: inline;
+}
+.header li{
+	float: right;
+	margin: 1em;
+	list-style-type: none;
+}
+.header li a{
+	text-decoration: none;
+}
+.articles > div{
+	margin: 1.5em;
+	background-color: white;
+	padding: 1em;
+	box-shadow: 3px 3px 3px gray;
+}
+.articles > div > div{
+	margin-bottom: 1em;
+}
+.picture figure{
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 1em;
+}
+.picture figure > figcaption{
+	margin-bottom: 1em;
+}
+.for-table table{
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+.for-table table > caption{
+	text-align: left;
+}
+.td1{
+	width: 40%;
+}
+.td2{
+	width: 40%;
+}
+.td3{
+	width: 30%;
+}
+.for-form > div{
+	border-left: 5px solid #ccc;
+	padding: 0.5em;
+
+}
+.label-in-rows{
+	display: inline-block;
+	width: 35%;
+	text-align: right;
+	margin-right: 1em;
+}
+#discribe{
+	vertical-align: top;
+}
+.submit-btn{
+	width: 100%;
+	background-color: #0066cc;
+	border: 0;
+	border-radius: 4px;
+}
+.footer{
+	background-color: #abcdef; 
+	height: 3em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
